@@ -1,41 +1,82 @@
-body {
-    font-family: Arial, sans-serif;
+/* Reset dasar untuk tampilan lebih bersih */
+* {
     margin: 0;
     padding: 0;
-    background-color: #f8f9fa;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
     color: #333;
+    line-height: 1.6;
 }
-header {
-    background-color: #007bff;
+
+/* Header */
+.header {
+    background-color: #2980b9;
     color: white;
-    padding: 20px;
     text-align: center;
+    padding: 50px 20px;
 }
-nav ul {
-    list-style: none;
-    padding: 0;
+
+.header h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
 }
-nav ul li {
-    display: inline;
-    margin: 0 15px;
+
+.header p {
+    font-size: 1.2rem;
+    margin-top: 10px;
 }
-nav ul li a {
+
+.header-icons {
+    margin-top: 15px;
+}
+
+.header-icons a {
     color: white;
+    font-size: 1.5rem;
+    margin: 0 10px;
     text-decoration: none;
 }
-section {
-    padding: 20px;
-    margin: 20px;
+
+/* Bagian Tentang Saya */
+.about {
     background: white;
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 30px;
     border-radius: 8px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-footer {
-    text-align: center;
-    padding: 10px;
-    background: #007bff;
-    color: white;
-    position: relative;
-    bottom: 0;
-    width: 100%;
+
+.about h2 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.about p {
+    font-size: 1.1rem;
+    text-align: justify;
+    margin-bottom: 15px;
+}
+
+/* Informasi Kontak */
+.contact-info {
+    background: #ecf0f1;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.contact-info p {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.contact-info i {
+    color: #2980b9;
+    margin-right: 10px;
 }
